@@ -31,4 +31,9 @@ public class Patient {
         return prescription; }
     public void setPrescription(String prescription) {
         this.prescription = prescription; }
+
+    protected double getOutstandingBill()  {
+        return outstandingBill; }
+    protected void setOutstandingBill(double b) {
+        this.outstandingBill = b; }
 }
