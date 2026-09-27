@@ -22,4 +22,13 @@ public class Patient {
         return fullName; }
     public LocalDate getAppointmentDate() {
         return appointmentDate; }
+
+    public String getDiagnosis()  {
+        return diagnosis; }
+    public void setDiagnosis(String diagnosis) { this.diagnosis = diagnosis; }
+
+    public String getPrescription()  {
+        return prescription; }
+    public void setPrescription(String prescription) {
+        this.prescription = prescription; }
 }
