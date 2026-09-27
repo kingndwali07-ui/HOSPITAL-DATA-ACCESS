@@ -18,5 +18,8 @@ public class Patient {
         this.fullName = fullName;
         this.appointmentDate = appointmentDate;
     }
-
+    public String getFullName()  {
+        return fullName; }
+    public LocalDate getAppointmentDate() {
+        return appointmentDate; }
 }
