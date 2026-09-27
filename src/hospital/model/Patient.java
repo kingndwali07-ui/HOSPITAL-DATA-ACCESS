@@ -36,4 +36,7 @@ public class Patient {
         return outstandingBill; }
     protected void setOutstandingBill(double b) {
         this.outstandingBill = b; }
+
+    String getPatientId() {
+        return patientId; }
 }
